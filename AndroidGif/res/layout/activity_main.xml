@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.androidgif.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="http://android-er.blogspot.com/"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/android_er" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff000090"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <com.example.androidgif.GifView
+                android:id="@+id/gifview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff000090"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <com.example.androidgif.GifView
+                android:id="@+id/gifview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/android_er" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff000090"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <com.example.androidgif.GifView
+                android:id="@+id/gifview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/android_er_rev" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info..." />
+
+</LinearLayout>

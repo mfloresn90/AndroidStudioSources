@@ -1,0 +1,9 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/gradle.xml
+/.idea/encodings.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
